@@ -471,7 +471,7 @@ enable-fzf-tab() {
     typeset -g _fzf_tab_orig_list_grouped=$?
 
     zstyle ':completion:*' list-grouped false
-    bindkey '^I' fzf-tab-complete
+    bindkey '^S' fzf-tab-complete
 
     # make sure we can copy them
     autoload +X -Uz _main_complete _approximate
