@@ -124,7 +124,7 @@ _fzf_tab_get() {
     _fzf_tab_add_default show-group ${FZF_TAB_SHOW_GROUP:-full}
     _fzf_tab_add_default command ${FZF_TAB_COMMAND:-fzf} $FZF_TAB_OPTS
     _fzf_tab_add_default extra-opts ''
-    _fzf_tab_add_default no-group-color ${FZF_TAB_NO_GROUP_COLOR:-$'\033[37m'}
+    #_fzf_tab_add_default no-group-color ${FZF_TAB_NO_GROUP_COLOR:-$'\033[37m'}
     _fzf_tab_add_default group-colors $FZF_TAB_GROUP_COLORS
     _fzf_tab_add_default ignore false
 
